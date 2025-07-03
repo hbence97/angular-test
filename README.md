@@ -6,8 +6,6 @@ Since this was my first ever Angular project I stayed with the approach of havin
 
 You can run the frontend with npm start and the backend with npm run dev
 
-The line chart is missing, I'm adding that feature right now, and will push my changes as soon as I'm done with it.
-
 Thanks for your patience,
 
 Bence
