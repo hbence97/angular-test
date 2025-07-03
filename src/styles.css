@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+/* Custom PrimeNG button styling - no external dependencies */
+.p-button {
+  background-color: #007ad9 !important;
+  color: white !important;
+  border: 1px solid #007ad9 !important;
+  padding: 8px 16px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+}
+
+.p-button:hover {
+  background-color: #005a9e !important;
+  border-color: #005a9e !important;
+}
+
+.p-card {
+  background: white !important;
+  border: 1px solid #ddd !important;
+  border-radius: 4px !important;
+  padding: 1rem !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.p-card .p-card-header {
+  font-weight: bold !important;
+  margin-bottom: 1rem !important;
+  padding-bottom: 0.5rem !important;
+  border-bottom: 1px solid #eee !important;
+}
