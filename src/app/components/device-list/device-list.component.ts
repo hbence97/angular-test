@@ -7,6 +7,7 @@ import { OnInit } from '@angular/core';
 
 import { DeleteButtonComponent } from '../delete-button/delete-button.component';
 import { DeviceFormComponent } from '../device-form/device-form.component';
+import { DeviceChartComponent } from '../device-chart/device-chart.component';
 
 @Component({
   selector: 'app-device-list',
@@ -17,6 +18,7 @@ import { DeviceFormComponent } from '../device-form/device-form.component';
     ButtonModule,
     DeleteButtonComponent,
     DeviceFormComponent,
+    DeviceChartComponent,
   ],
   template: `
     <app-device-form
@@ -110,6 +112,7 @@ import { DeviceFormComponent } from '../device-form/device-form.component';
           </ng-template>
         </p-table>
       </div>
+      <app-device-chart [devices]="devices"></app-device-chart>
     </div>
   `,
   styles: [
